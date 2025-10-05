@@ -28,12 +28,7 @@ O objetivo principal é demonstrar a aplicação de conceitos de computação em
 
 ## 🏗️ Arquitetura
 
-```
-┌─────────────┐      ┌──────────────┐      ┌─────────────┐      ┌──────────┐
-│   Cliente   │─────▶│ API Gateway  │─────▶│ AWS Lambda │─────▶│ AWS SES  │
-│  (HTTP/S)   │      │   (REST)     │      │  (.NET 9)   │      │  (Email) │
-└─────────────┘      └──────────────┘      └─────────────┘      └──────────┘
-```
+<img src="https://raw.githubusercontent.com/PauloBusch/fcg-iac-terraform/main/docs/fcg-architecture-microservices-diagram.drawio.png"></img>
 
 ### Componentes
 
