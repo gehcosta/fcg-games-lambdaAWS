@@ -1,0 +1,42 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LambdaSendEmail", "LambdaSendEmail", "{B3FE556A-2BFA-B4CA-6662-094E3BB8CE17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F1ACC197-063A-9B6E-3950-F501460E2235}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaSendEmail", "LambdaSendEmail\src\LambdaSendEmail\LambdaSendEmail.csproj", "{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{AD9BC649-78CB-9A15-ABC0-BBB3B9E1FF1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaSendEmail.Tests", "LambdaSendEmail\test\LambdaSendEmail.Tests\LambdaSendEmail.Tests.csproj", "{21868859-E448-D7E4-BB73-010DA397AAE3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{21868859-E448-D7E4-BB73-010DA397AAE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21868859-E448-D7E4-BB73-010DA397AAE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21868859-E448-D7E4-BB73-010DA397AAE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21868859-E448-D7E4-BB73-010DA397AAE3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F1ACC197-063A-9B6E-3950-F501460E2235} = {B3FE556A-2BFA-B4CA-6662-094E3BB8CE17}
+		{28E7D46B-C3C8-0A1D-DC88-C3AEB7067FDE} = {F1ACC197-063A-9B6E-3950-F501460E2235}
+		{AD9BC649-78CB-9A15-ABC0-BBB3B9E1FF1E} = {B3FE556A-2BFA-B4CA-6662-094E3BB8CE17}
+		{21868859-E448-D7E4-BB73-010DA397AAE3} = {AD9BC649-78CB-9A15-ABC0-BBB3B9E1FF1E}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EAA40D2E-89D1-48E6-A732-40BF208D2CBA}
+	EndGlobalSection
+EndGlobal

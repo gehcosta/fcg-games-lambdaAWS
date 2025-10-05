@@ -1,0 +1,30 @@
+{
+  "body": "{\"from\":\"no-reply@fcgfiap.com\",\"to\":[\"exemplo@gmail.com\"],\"subject\":\"Email HTML de Teste\",\"body\":\"<html><body><h1 style='color: #4CAF50;'>Bem-vindo!</h1><p>Este é um email <strong>HTML</strong> enviado através da <em>Lambda function</em>.</p><ul><li>Item 1</li><li>Item 2</li><li>Item 3</li></ul><p>Enviado por <a href='https://aws.amazon.com/lambda/'>AWS Lambda</a></p></body></html>\",\"isHtml\":true}",
+  "resource": "/send-email",
+  "path": "/send-email",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "X-Forwarded-For": "127.0.0.1",
+    "X-Forwarded-Port": "443",
+    "X-Forwarded-Proto": "https"
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "accountId": "123456789012",
+    "apiId": "testapi",
+    "protocol": "HTTP/1.1",
+    "httpMethod": "POST",
+    "path": "/send-email",
+    "stage": "test",
+    "requestId": "test-invoke-request",
+    "requestTime": "05/Oct/2025:00:00:00 +0000",
+    "requestTimeEpoch": 1728086400000,
+    "identity": {
+      "sourceIp": "127.0.0.1"
+    }
+  },
+  "isBase64Encoded": false
+}
