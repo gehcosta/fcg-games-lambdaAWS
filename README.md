@@ -1,4 +1,4 @@
-# FCG Cloud Games
+# FCG Cloud Games - Lambda functions
 
 <div align="center">
   
